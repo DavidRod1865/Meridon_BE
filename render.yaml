@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: ctrm-backend
+    env: docker
+    plan: free
+    dockerfilePath: Dockerfile
+    buildCommand: "dotnet publish -c Release -o out"
+    startCommand: "dotnet out/CTRMBackend.dll"
+    envVars:
+      - key: ConnectionStrings__DefaultConnection
+        value: "Host=<YourDatabaseHost>;Database=<YourDatabaseName>;Username=<YourUsername>;Password=<YourPassword>"

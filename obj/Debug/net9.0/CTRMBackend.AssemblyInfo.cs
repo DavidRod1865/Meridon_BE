@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CTRMBackend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c742aa85a281070358bafb57e85dbc39a04aa006")]
 [assembly: System.Reflection.AssemblyProductAttribute("CTRMBackend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CTRMBackend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

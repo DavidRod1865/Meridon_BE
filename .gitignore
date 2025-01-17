@@ -32,6 +32,7 @@ x86/
 *.so
 *.dylib
 *.class
+.env 
 
 # Others
 *.cache
